@@ -1,0 +1,81 @@
+#mainNav a {
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.titulo__index {
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+.subtitulo__index {
+  font-size: 1.3rem;
+}
+.menu__index {
+  font-size: 1.4rem
+}
+
+.footer__social {
+  position: fixed;
+  left: 0;
+  top: 30rem;
+  z-index: 2000;
+
+  &--list {
+    list-style: none;
+  }
+  &--list li a {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  &--list li a:hover {
+    padding: 1rem 3rem;
+    background: black;
+  }
+  &--list li .icon-facebook {
+    background: #3b5998;
+  }
+  &--list li .icon-twitter {
+    background: #00abf0;
+  }
+  &--list li .icon-instagram {
+    background: #3f729b;
+  }
+}
+.footer__music {
+  position: fixed;
+  left: 0rem;
+  top: 40.7rem;
+  z-index: 2001;
+
+  &--list {
+    list-style: none;
+  }
+  &--list li a {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  &--list li a:hover {
+    padding: 1rem 3rem;
+    background: rgb(255, 255, 255);
+  }
+  &--list li .icon-youtube {
+    background: #c4302b;
+  }
+  &--list li .icon-spotify {
+    background: #81b71a;
+  }
+  &--list li .icon-soundcloud {
+    background: #ff7700;
+  }
+}

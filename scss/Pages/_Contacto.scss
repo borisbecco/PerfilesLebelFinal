@@ -1,0 +1,26 @@
+#contenedorFormulario {
+  border-radius: 1rem;
+  border: solid white;
+  padding: 2rem;
+  margin-top: 1rem ;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  background-color: #140c0c;
+}
+
+.social-media {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.social-media span {
+  font-size: 16px;
+}
+.social-media span .fas {
+  margin: 0 0 0 10px;
+}
+.social-media a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
